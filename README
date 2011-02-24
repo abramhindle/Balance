@@ -1,0 +1,45 @@
+This concept was initially thought of by Abram Hindle and then refined further by Daryl Posnett. 
+
+Suggested performance by Daryl:
+
+Take 1 sack of oregano and weigh it out on each scale til they balance.
+Wipe off each scale and bag the contents of each scale. 
+Sell/share the oregano with others afterwards.
+
+Oolong tea could be used as well -- abram
+
+Abram's suggested performance: 
+
+Get beans or something you don't care too much about and weigh them. You can dash the beans off the scale any time.
+
+Other concepts:
+
+Entropy as balance. High entropy implies a balance of weight between the scales.
+
+Scales used:
+
+stamps.com usb scales
+
+Code needed:
+libusb-1.0-0
+libusb-1.0-0-dev
+usbscale git://github.com/abramhindle/usbscale.git (check this out as a sub module)
+
+This is a submodule check it out
+./usbscale
+Original perl code from erjiang
+./gist.github.com.503896
+Multi-scale entropy based instrument (very lame right now)
+./balance.pl
+Csound score for multi-scale entropy instrument
+./gsine.sco
+Csound orchestra for multi-scale entropy instrument
+./gsine.orc
+This file
+./README
+Csound score for single-scale entropy instrument
+./sine.sco
+Single-scale entropy based instrument (very lame right now)
+./entropy.pl
+Csound orchestra for single-scale entropy instrument
+./sine.orc
